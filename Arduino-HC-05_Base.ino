@@ -5,7 +5,7 @@
  * Autore  : Andrea Lombardo
  * Web     : http://www.lombardoandrea.com
  * Post    : http://adf.ly/12267939/arduino-hc-05-base
- * Git     : https://github.com/AndreaLombardo/Arduino-Crepuscolare
+ * Git     : https://github.com/AndreaLombardo/Arduino-HC-05_Base
  */ 
 
  //Includo libreria SoftwareSerial
