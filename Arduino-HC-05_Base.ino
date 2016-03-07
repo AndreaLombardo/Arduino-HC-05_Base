@@ -36,12 +36,12 @@ void loop() {
   //se ci sono dati sul buffer della Serial
   while (Serial.available() > 0) {
     //mandali al modulo bluetooth
-    bt.print(Serial.read());
+    bt.print(char(Serial.read()));
   }
 
   //se ci sono dati sul buffer SoftwareSerial (il buffer del bluetooth)
   while (bt.available() > 0) {
     //mostrali nel Serial Monitor
-    Serial.println(bt.read());
+    Serial.print(char(bt.read()));
   }
 }
